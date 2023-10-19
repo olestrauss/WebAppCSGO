@@ -1,0 +1,194 @@
+/* Your Original Styles */
+.register-photo {
+    background: #f1f7fc;
+    padding: 80px 0;
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url(../../static/img/fuji_mountain.jpg) 0 0/cover;
+}
+
+.register-photo .form-container {
+    display: table;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.register-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #fff;
+    padding: 40px 60px;
+    color: #505e6c;
+}
+
+@media (max-width: 991px) {
+    .register-photo form {
+        padding: 40px;
+    }
+}
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+    background: #f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px;
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+    background: #f4476b;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: 0 !important;
+}
+
+.register-photo form .btn-primary:active,
+.register-photo form .btn-primary:hover {
+    background: #eb3b60;
+}
+
+.register-photo form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+/* Additional styles for the Carousel */
+.carousel {
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    padding: 20px;
+    background-color: #f7f9fc;
+    text-align: center;
+}
+
+.carousel-item h5 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.carousel-item p {
+    color: #777;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #f4476b;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #eb3b60;
+}
+
+.form-select {
+    width: 300px;
+    margin: 20px auto;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    background: #f7f9fc;
+    box-shadow: none;
+    outline: none;
+    color: #505e6c;
+}
+
+/* Updated Styles */
+
+/* Carousel Styling */
+#referralCodesCarousel {
+    background-color: #333;  /* Dark background */
+    color: #ccc;  /* Light text color */
+    border-radius: 10px;  /* Rounded corners */
+}
+
+/* Hyperlink Styling */
+#referralCodesCarousel a {
+    color: #ff5733;  /* Pop of color */
+    text-decoration: none;
+}
+
+#referralCodesCarousel a:hover {
+    color: #ff8a66;  /* Slightly lighter color on hover */
+}
+
+/* Carousel Item Styling */
+#referralCodesCarousel .carousel-item {
+    padding: 50px;
+}
+
+/* Control Buttons Styling */
+#referralCodesCarousel .carousel-control-prev-icon,
+#referralCodesCarousel .carousel-control-next-icon {
+    background-color: #ff5733;  /* Matching pop of color */
+}
+
+#referralCodesCarousel .carousel-control-prev-icon:hover,
+#referralCodesCarousel .carousel-control-next-icon:hover {
+    background-color: #ff8a66;  /* Slightly lighter color on hover */
+}
+
+/* Additional Greyscale Effect */
+#referralCodesCarousel img {
+    filter: grayscale(100%);
+}
+
+
+/* Common Styles for All Social Buttons */
+/* Your Original Styles */
+
+/* ... (other CSS code) ... */
+
+/* Updated Button Styles */
+.btn-primary {
+    background-color: #333;  /* Dark grey background */
+    border: none;  /* Remove border */
+    color: #fff;  /* White text */
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #290000;  /* Add a pop of color on hover and focus */
+    color: #fff;  /* Keep text white */
+}
+
+.btn-primary.btn-lg {
+    padding: 20px 40px;  /* Larger padding for large button */
+    font-size: 18px;  /* Larger font size */
+}
